@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-color: #ececec;
+}
+.container {
+  background: white;
+  border-radius: 2%;
+  display: flex;
+  margin: 100px 150px;
+  height: 70vh;
+  width: 80vw;
+}
+.loginForm {
+  width: 30vw;
+}
+.loginContents {
+  padding: 30px;
+}
+.loginContents a {
+  color: black;
+}
+.loginForm .loginButton {
+  padding: 10px 150px;
+  color: white;
+  background: black;
+  margin-top: 20px;
+  margin-left: 28px;
+}
+.loginForm .loginButton:hover {
+  cursor: pointer;
+}
+
+.image img {
+  padding: 30px 30px 30px 0px;
+  height: 70vh;
+  width: 50vw;
+}
+
+.or {
+  text-align: center;
+  margin: 10px;
+}
+
+.loginForm input {
+  padding: 10px 60px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 0.5px solid #000;
+}
+
+.forgot {
+  margin-left: 200px;
+}
+
+.downButtons {
+  display: flex;
+  gap: 65px;
+}
+.downButtons :hover {
+  cursor: pointer;
+}
+.fbButton {
+  display: flex;
+  padding: 5px 25px;
+  border: none;
+}
+.fbButton span {
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+.fbButton img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+.googleButton img {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.googleButton {
+  display: flex;
+  padding: 5px 30px;
+  border: none;
+}
+.googleButton span {
+  margin-top: 5px;
+  font-weight: 600;
+}
